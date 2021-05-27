@@ -1,18 +1,31 @@
 h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
+h1{
+    border: 5px ridge black;
+    background-color: #81F0C9;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h4{
+    border: 5px ridge black;
+    background-color: #81F0C9;
+    margin-left: 45%;
+    margin-right: 45%;
+}
 body{
-    background-image: url(./bg1.jpg);
+    background-image: url(./bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div{
-    background-color: #AC5CF6;
+    background-color: #0D7EEf;
     width: 30%;
     min-height: 30%;
     padding: 10px;
     border: 5px double black;
+    border-radius: 20px;
     margin-top: 10%;
     margin-top: 10px;
     margin-right: auto;
