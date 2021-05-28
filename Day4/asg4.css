@@ -1,0 +1,93 @@
+body{
+    background-color: #D5F6B6;
+}
+div.pgset{
+    margin-right: 5%;
+}
+h1{
+    padding: 2%;
+    text-align: center;
+    font-size: 250%;
+    background-color: #EDB472;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a{ 
+    margin-top: 10px;
+   text-decoration: none;
+   color: white;
+   background-color: darkblue;
+   padding: 1%;
+}
+#TC{
+    margin-top: -1%;
+    font-size: 160%;
+    font-weight: bolder;
+    font-style: oblique;
+    border: 5px double black;
+    border-radius: 50px;
+    background-color: #EDB472;
+    text-align: center;
+    margin-left: 4.7%;
+    margin-right: 5%;
+}
+div.head{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+    background-color: #F08507;
+}
+a.home{
+    margin-left: 1%;
+}
+div.tg{
+    float: left;
+    text-align: center;
+    padding: 2%;
+    /* margin-left: 10px ; */
+    font-size: 17px;
+}
+a:hover{
+    color: black;
+    background-color: yellow;
+}
+div.notice{
+    padding: 2%;
+    text-align: left;
+    font-size: 130%;
+    background-color: #EDB472;
+    margin-left: 4.7%;
+    margin-right: 32.2%;
+}
+div.off{
+    margin-top: 2%;
+    margin-left: 10%;
+    float: left;
+    font-size: 130%;
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 5px;
+}
+div.pic{
+    margin-top: -14%;
+    margin-left: 66.1%;
+    margin-right: 30%;
+}
+div.galfrm{
+    margin-left: 3.7%;
+    margin-right: 4.7%;
+}
+div.imgGal{
+    background-color: white;
+    float: left;
+    margin-left: 2.1%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+}
+div.imgGal:hover{
+    transform: scale(1.1);
+}
