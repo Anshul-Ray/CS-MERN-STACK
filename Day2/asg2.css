@@ -1,0 +1,19 @@
+body{
+    background-color:grey;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+    border: double black;
+}
+th,td{
+    
+    background-color: darkgray; 
+    text-align: center;
+}
+form{
+    font-weight: bolder;
+    margin-left: 10%;
+}

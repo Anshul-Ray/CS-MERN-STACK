@@ -1,0 +1,9 @@
+body{
+    align-items: center;
+    background-color: cornflowerblue;
+}
+/* This is External Styling from index.html */
+table,th,td{
+
+border: 1px double black;
+}

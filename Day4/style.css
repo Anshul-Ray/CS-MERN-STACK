@@ -1,0 +1,77 @@
+body{
+    text-align: justify;
+}
+p{
+    outline-color: black;
+    text-transform: uppercase;
+    text-indent: 4%;
+    letter-spacing: 5%;
+    word-spacing: 2%;
+    text-shadow: 1px 1px 3px black;
+    font: 20px Arial, sans-serif;
+    /* direction: rtl; */
+    /* unicode-bidi: bidi-override; */
+}/* 
+p.solid{
+    outline-style: double;
+    outline-width: 10px;
+}*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/* div{
+    background-color: gray;
+    width: 200px;
+     height: 100px;
+    overflow: scroll;
+    overflow-x: hidden; 
+    overflow: auto;
+    float: left;
+} */
+div.imageGallery{
+    float: left;
+    margin: 1%;
+    border: 1px solid black;
+}
+div.description{
+    width: 300px;
+    text-align: center;
+}
+#back{
+    /* background-image: linear-gradient(to top, red,yellow); */
+    background-image: linear-gradient(0deg, blue, green);
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 15px 20px 10px 5px;
+    padding: 3%;
+    box-shadow: 1px 1px 1px 5px gray;
+}
+/* @media screen and (min-width: 480px){ */
+    @media screen and (max-width: 400px) {
+    #back{
+        background-color: greenyellow;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    body{
+        background-color: greenyellow !important;
+    }
+}
+.fc{
+    display: flex;
+    background-color: indigo;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fc > div{
+    padding: 5%;
+    margin: 10px;
+    color: lawngreen;
+    font-weight: bolder;
+}
+.fc > div:hover{
+    background-color: lightblue;
+    color: black;
+}

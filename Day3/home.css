@@ -1,0 +1,66 @@
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+body.main{
+    background-color: #2F3031;
+    position: relative;
+    background-image: url(./head.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 130%;
+    background-position-x: center;
+    background-position-y: 10px;
+}
+div.home{
+    background-image: url(./h.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 500%;
+    position: absolute;
+    border: 5px double black;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 6.25%;
+}
+div.sign{
+    background-image: url(./s.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 500%;
+    position: absolute;
+    border: 5px double black;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 37.5%;
+} 
+div.login{
+    background-image: url(./l.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 500%;
+    position: absolute;
+    border: 5px double black;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 68.75%;
+}
+div:hover{
+    width: 27%;
+    height: 502%;
+    border: 5px double black;
+    border-radius: 20px;
+}
+a{
+    background-color: yellow;
+    border: 5px double black ;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+    font-size: 1em;
+    color: black;
+}
+a:hover{
+    background-color: white;
+    /* color: teal; */
+}
