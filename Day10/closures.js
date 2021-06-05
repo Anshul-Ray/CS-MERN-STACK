@@ -50,7 +50,7 @@ function x()
 }
 
 x()()();
-*/
+// Math method
 function timer()
 {
     for(var i = 1; i<=5 ; i++)
@@ -60,6 +60,34 @@ function timer()
         {
             console.log(j++);
         }, i*1000);
+    }
+}
+timer();
+// Variable Method
+function timer()
+{
+    for(let i = 1; i<=5 ; i++)
+    {
+        setTimeout(function()
+        {
+            console.log(i);
+        }, i*1000);
+    }
+}
+timer();*/
+// Closure Method
+function timer()
+{
+    for(let i = 1; i<=5 ; i++)
+    {
+        function closure(x)
+        {
+            setTimeout(function()
+            {
+                console.log(x);
+            }, x*1000);
+        }
+        closure(i)
     }
 }
 timer();

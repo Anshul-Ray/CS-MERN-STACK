@@ -1,0 +1,26 @@
+.parent
+{
+    background-color: burlywood;
+    height: 200vh;
+    position: relative;
+}
+
+.child-one
+{
+    background-color: darkslateblue;
+    position: sticky;
+    top: 0px;
+}
+
+.child-two
+{
+    background-color: darkgoldenrod;
+    position: absolute;
+}
+
+.child-three
+{
+    background-color: crimson;
+    position: fixed;
+    right: 0px;
+}
