@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StopWatch</title>
+        <link rel="stylesheet" href="timerStyle.css">
+    </head>
+    <body>
+        <div class="clock">
+        <form action="watch.html">
+            <label for="tm">Time(hours) :</label>
+            <input type="number" id="tmh" min="0" max="59" value="0"></br></br>
+            <label for="tm">Time(minutes) :</label>
+            <input type="number" id="tmm" min="0" max="59" value="0"></br></br>
+            <label for="tm">Time(seconds) :</label>
+            <input type="number" id="tms" min="0" max="59" value="0"></br></br>
+            <input type="submit" onclick="handleSubmit()" value="Go">
+        </form>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>
