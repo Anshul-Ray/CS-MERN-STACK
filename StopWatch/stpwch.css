@@ -1,9 +1,15 @@
 body{
     background-color: black;
 }
+h1
+{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
 div.clock{
     margin-left: 25%;
-    margin-top: 12%;
+    /* margin-top: 12%; */
     border-radius: 25%;
     border: 5px double blue; 
     width: 50%;
@@ -57,7 +63,7 @@ button{
     background-color: red;
     color: black;
 }
-#rst:hover,#rst:focus{
+#rst:hover,#rst:focus-visible{
     background-color: yellow;
     color: black;
 }

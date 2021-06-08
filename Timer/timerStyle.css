@@ -1,9 +1,14 @@
 body{
     background-color: black;
 }
+h1
+{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
 div.clock{
     margin-left: 25%;
-    margin-top: 12%;
     border-radius: 40%;
     border: 5px double blue; 
     width: 50%;
@@ -57,7 +62,7 @@ button{
     background-color: red;
     color: black;
 }
-#rst:hover,#rst:focus{
+#rst:hover,#rst:focus-visible{
     background-color: yellow;
     color: black;
 }
@@ -74,27 +79,38 @@ button{
     height: 30px;
     text-align: center;
     line-height: 30px;
-    background-color: yellowgreen;
-    color: wheat;
+    /* background-color: green; */
 }
 
 form
 {
     text-align: center;
-    /* margin-left: 30%; */
-    margin-top: 5%;
+    margin-top: 15%;
     font-size: 140%;
 }
-input
+input[type="number"]
 {
     text-align: center;
-    width: 15%;
+    width: 14%;
     font-size: 140%;
+}
+input[type="submit"]
+{
+    margin-top: 3%;
+    width: 25%;
+    font-size: 140%;
+    background-color: green;
+    border:  2px groove blue;
+    border-radius: 25px;
 }
 a
 {
     text-decoration: none;
     color: white;
+}
+#clkIcon
+{
+    font-size: 70px;
 }
 #hmp:hover
 {
